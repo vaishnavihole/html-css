@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>CSS Flexboxes</title>
+
+    <style>
+     .item{
+        background-color: tomato;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 50px;
+     }
+
+     .container{
+        display: flex;
+        background-color: skyblue;
+        flex-direction: row-reverse; 
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* justify-content: flex-start; */
+        /* justify-content: center; */
+        /* justify-content: space-evenly; */
+        justify-content: space-around; 
+        /* justify-content: space-between; */
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <div class="item">
+      1
+    </div>
+    <div class="item">
+     2
+    </div>
+
+    <div class="item">
+      3
+    </div>
+    </div>
+</body>
+</html>
