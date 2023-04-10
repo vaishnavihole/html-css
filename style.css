@@ -1,0 +1,20 @@
+
+.training-item{
+        background-color: tomato;
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+     }
+
+     .container{
+        display: flex;
+        /* background-color: skyblue; */
+        justify-content: space-around; 
+       
+     }
+
+     .training-section{
+      text-align: center;
+     }
+    
