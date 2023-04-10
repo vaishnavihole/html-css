@@ -1,10 +1,12 @@
 
 .training-item{
-        background-color: tomato;
+        background-color:#e6e6e6;
+        padding: 20px 0px;
         height: 300px;
         width: 300px;
         margin: 10px;
         padding: 10px;
+        border-radius: 10px;
      }
 
      .container{
@@ -17,4 +19,26 @@
      .training-section{
       text-align: center;
      }
+
+     
+     .training-item p{
+      font-size: 16px;
+      
+     }
     
+     .training-item button{
+      background-color: white;
+      padding: 10px 25px;
+      margin-top: 23px;
+      color: black;
+      border: none;
+      border-radius: 10px;
+     }
+
+     
+
+     .training-item:hover button{
+      background-color: white;
+      color: black;
+
+     }
