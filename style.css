@@ -7,6 +7,8 @@
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 1px 2px rgb(73, 73, 73);
      }
 
      .container{
@@ -27,18 +29,26 @@
      }
     
      .training-item button{
-      background-color: white;
+      background-color: skyblue;
       padding: 10px 25px;
       margin-top: 23px;
       color: black;
       border: none;
       border-radius: 10px;
+      border: 1px solid black;
      }
-
-     
 
      .training-item:hover button{
       background-color: white;
       color: black;
-
+      border: 1px solid black;
      }
+
+     .training-item:hover{
+      box-shadow: red;
+     }
+
+    .mongodb-img{
+      height: 80px;
+    }
+     
